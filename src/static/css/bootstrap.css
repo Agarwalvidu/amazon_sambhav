@@ -6564,9 +6564,15 @@ fieldset:disabled .btn {
     padding-top: .25rem !important;
     padding-bottom: .25rem !important
 }
+.py-1:hover{
+    color: #084298;
+}
 .py-2 {
     padding-top: .5rem !important;
     padding-bottom: .5rem !important
+}
+.py-2:hover{
+    color: #084298;
 }
 .py-3 {
     padding-top: 1rem !important;

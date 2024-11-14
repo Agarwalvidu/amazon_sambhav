@@ -1,3 +1,27 @@
 .amazon-product-card h5{
     font-family: emberBold;
 }
+/* Style for the chatbot button */
+.chatbot-button {
+    position: fixed; /* Stick to the screen */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    width: 60px; /* Size of the button */
+    height: 60px;
+    border-radius: 50%; /* Make it circular */
+    background-color: var(--warning); /* Button color */
+    color: white;
+    border: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000; /* Ensures it's on top of other elements */
+    transition: background-color 0.3s;
+}
+
+.chatbot-button:hover {
+    background-color: #cec483; /* Darken on hover */
+}

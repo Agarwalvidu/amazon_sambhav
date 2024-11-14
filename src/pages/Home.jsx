@@ -15,6 +15,7 @@ import img9 from "../static/images/372x232_1_Low._SY116_CB670263840_.jpg";
 import img10 from "../static/images/372x232_2_Low._SY116_CB670263840_.jpg";
 import img11 from "../static/images/372x232_3_Low._SY116_CB670263840_.jpg";
 import img12 from "../static/images/372x232_4_Low._SY116_CB670263840_.jpg";
+import { Bar } from "../components/querybar/Querybar";
 
 
 export const Home = ()=>{
@@ -25,6 +26,7 @@ export const Home = ()=>{
             <section className="amazon-banner" style={{height:"230px"}}>
                 <img src={banner} alt="amz-banner-img" className="img-fluid" />
             </section>
+            <Bar />
             <main className="container-fluid product-card-main">
                 <div className="row">
                     <ProductCard card_title='Upgrade your home | Amazon Brands & more' p_img1={img1} p_img2={img2} p_img3={img3} p_img4={img4} p1_title='upto 50% | Home applances' />

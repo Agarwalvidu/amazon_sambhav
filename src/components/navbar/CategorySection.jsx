@@ -12,35 +12,21 @@ export const CategorySection = ()=>{
                     </Link>
                 </span>
                 <span>
-                    <Link to="/" className="px-1">Amazon miniTV</Link>
+                    <Link to="/" className="px-1">Home</Link>
                 </span>
                 <span>
-                    <Link to="/" className="px-1">Best Sellers</Link>
+                    <Link to="/query" className="px-1">Query Resolution</Link>
                 </span>
                 <span>
-                    <Link to="/" className="px-1">Mobiles</Link>
+                    <Link to="/" className="px-1">Shipment Tracking</Link>
                 </span>
                 <span>
-                    <Link to="/" className="px-1">Customer Services</Link>
+                    <Link to="/" className="px-1">International Services</Link>
                 </span>
                 <span>
-                    <Link to="/" className="px-1">Today's Deals</Link>
+                    <Link to="/" className="px-1">Multiple Carriers</Link>
                 </span>
-                <span>
-                    <Link to="/" className="px-1">Electronics</Link>
-                </span>
-                <span>
-                    <Link to="/" className="px-1">Prime</Link>
-                </span>
-                <span>
-                    <Link to="/" className="px-1">Fashion</Link>
-                </span>
-                <span>
-                    <Link to="/" className="px-1">Amazon Pay</Link>
-                </span>
-                <span>
-                    <Link to="/" className="px-1">Home & Kitchen</Link>
-                </span>
+                
             </div>
         </>
     )

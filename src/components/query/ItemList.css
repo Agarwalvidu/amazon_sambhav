@@ -1,0 +1,96 @@
+.heading_query{
+    font-size: 3rem;
+    font-weight: 6rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .expand {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+  }
+  
+  .right-arrow {
+    width: 10px;
+    height: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .query-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .query-details h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .query-details .description {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .detail-row {
+    background-color: #f1f1f1;
+  }
+  
+  .detail {
+    padding: 10px;
+    line-height: 1.6;
+  }
+  
+  .button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .status-solved {
+    background-color: rgb(64, 128, 64);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .status-pending {
+    background-color: rgb(140, 140, 245);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .status-delayed {
+    background-color: rgb(255, 131, 131);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+  }
