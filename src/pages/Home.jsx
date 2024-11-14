@@ -38,6 +38,7 @@ export const Home = ()=>{
                     <ProductCard card_title='Revamp your home in style | 10% cashback' p_img1={img9} p_img2={img10} p_img3={img11} p_img4={img12} p1_title='upto 50% | Home applances' />
                     <ProductCard card_title='Upgrade your home | Amazon Brands & more' p_img1={img1} p_img2={img2} p_img3={img3} p_img4={img4} p1_title='upto 50% | Home applances' />
                 </div>
+                
             </main>
             <Footer />
         </>
